@@ -4,6 +4,7 @@ import os
 import shutil
 from time import sleep
 import random
+import settings
 
 base1 = "https://sdl-stickershop.line.naver.jp/products/0/0/1/"
 base2 = "/android/stickers/"
@@ -13,7 +14,7 @@ select = "span.mdCMN09Image"
 sticker_id_start = 3105
 sticker_id_end = 3200
 file_type = ".png"
-file_store = ""
+file_store = settings.file_store
 
 for sticker_id_i in range(sticker_id_start, sticker_id_end) :
     web = web_base1 + str(sticker_id_i) + web_base2
