@@ -12,7 +12,7 @@ git clone https://github.com/lili668668/LineStickerCrawler.git
 cd LineStickerCrawler
 
 # install dependencies
-pip install -r requirements.txt
+sudo pip3 install -r requirements.txt
 
 # edit setting
 cp settings.py.example settings.py
