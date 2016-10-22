@@ -23,4 +23,5 @@ python3 line-sticker-crawler-all.py
 ```
 
 ## Todo list
--[  ] Fix the Exception
+
+- [ ] Fix the Exception
