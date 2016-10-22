@@ -1,1 +1,4 @@
-file_store = "" # Enter the path you want to store in
+file_store = "Enter the path you want to store in
+"
+start = "Enter you want the start id of sticker id"
+end = "Enter you want the end id of sticker id"
