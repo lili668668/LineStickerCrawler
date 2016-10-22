@@ -2,7 +2,7 @@
 Crawler line stickers from line store with Python3
 
 ## About it
-It will crawler there, https://store.line.me/home/zh-Hant, and it will help you to download large line sticker picture.
+It will crawler there, https://store.line.me/home/zh-Hant, and it will help you to download large line sticker pictures.
 
 ## Usage
 ```
@@ -21,3 +21,6 @@ vim settings.py
 # start
 python3 line-sticker-crawler-all.py
 ```
+
+## Todo list
+-[  ] Fix the Exception
