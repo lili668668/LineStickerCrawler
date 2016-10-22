@@ -9,8 +9,8 @@ import settings
 web_base1 = "https://store.line.me/stickershop/product/"
 web_base2 = "/zh-Hant"
 select = "span.mdCMN09Image"
-sticker_id_start = 2074
-sticker_id_end = 3000
+sticker_id_start = int(settings.start)
+sticker_id_end = int(settings.end)
 file_type = ".png"
 file_store = settings.file_store
 
@@ -19,7 +19,7 @@ for sticker_id_i in range(sticker_id_start, sticker_id_end) :
     print("Now is " + web)
     try :
         web = RS.get(web, timeout=1)
-    except RequestException:
+    except Exception:
         print("The page may timeout")
         continue
     if web.status_code == 200:
